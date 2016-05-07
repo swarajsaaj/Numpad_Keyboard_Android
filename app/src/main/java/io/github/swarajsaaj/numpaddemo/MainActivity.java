@@ -20,6 +20,5 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Next Task", Toast.LENGTH_SHORT).show();
             }
         });
-        numpad.setIconsColor(R.color.colorPrimaryDark);
     }
 }
