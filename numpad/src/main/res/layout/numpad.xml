@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/key1"
+                style="@style/KeyBoardBtn"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="1"/>
+
+            <TextView
+                android:id="@+id/key2"
+                style="@style/KeyBoardBtn"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="2"/>
+
+            <TextView
+                android:id="@+id/key3"
+                style="@style/KeyBoardBtn"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="3"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/key4"
+                style="@style/KeyBoardBtn"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="4"/>
+
+            <TextView
+                android:id="@+id/key5"
+                style="@style/KeyBoardBtn"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="5"/>
+
+            <TextView
+                android:id="@+id/key6"
+                style="@style/KeyBoardBtn"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="6"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/key7"
+                style="@style/KeyBoardBtn"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="7"/>
+
+            <TextView
+                android:id="@+id/key8"
+                style="@style/KeyBoardBtn"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="8"/>
+
+            <TextView
+                android:id="@+id/key9"
+                style="@style/KeyBoardBtn"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="9"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/keyBackSpace"
+                android:background="?selectableItemBackgroundBorderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="28dp"
+                android:clickable="true"
+                android:gravity="center"
+                android:src="@drawable/ic_backspace_white_18dp"/>
+
+            <TextView
+                android:id="@+id/key0"
+                style="@style/KeyBoardBtn"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="0"/>
+
+            <ImageView
+                android:id="@+id/keyNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="28dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:gravity="center"
+                android:src="@drawable/ic_forward_white_18dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
